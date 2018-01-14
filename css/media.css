@@ -1,0 +1,312 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	html {
+		font-size: 9px;
+	}
+	section h3 br,
+	p br {
+		display: none;
+	}
+	.system_banner {
+		overflow: hidden;
+	}
+	.service img {
+		left: 0!important;
+		right: 0!important;
+		max-width: 100%;
+	}
+	.system img {
+		right: 0!important;
+		left: 0!important;
+		max-width: 100%;
+	}
+	h1 {
+		font-size: 4.5rem;
+	}
+	.open_form:before {
+		background-position: 65% -100px;
+	}
+	.contact_info {
+		padding: 40px 15px;
+	}
+	section:before {
+		max-width: 100%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	footer .row div  {
+		text-align: center;
+	}
+	.made_by p,
+	.copyright p {
+		font-size: 16px;
+	}
+	html {
+		font-size: 8px;
+	}
+	.open_form {
+		text-align: center;
+		z-index: 2;
+	}
+	.open_form h3 {
+		text-align: center;
+		margin-top: 0;
+	}
+	.open_form h3 br {
+		display: none;
+	}
+	.open_form button {
+		margin-top: 3rem;
+	}
+	p {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;
+	}
+	.open_form {
+		height: auto;
+		background-position: left top;
+	}
+	.open_form .open_form_left p {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.open_form .big-numb-time {
+		font-size: 4rem;
+	}
+	.open_form .timer__item {
+		padding-top: 2rem;
+	}
+	section {
+		padding: 60px 0;
+	}
+	.desc {
+		left: 0;
+	}
+	main {
+		background-position: left top;
+		padding-bottom: 40px;
+	}
+	.about {
+		padding-top: 60px;
+	}
+	.about .decor {
+		position: static;
+		margin: 0 auto 3rem;
+	}
+	.service .service_text {
+		transform: none;
+		position: static;
+	}
+	.system .system_text {
+		padding: 30px 15px;
+	}
+	.system .system_text:before {
+		display: none;
+	}
+	.variant .row {
+		background-image: none!important;
+		height: auto;
+		padding: 40px 0;
+	}
+	.variant .variant_text {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+	.open_form:before {
+		background-image: none;
+	}
+	.rev .rev_item:before {
+		display: none;
+	}
+	.rev .rev_item .col-sm-6:first-of-type img {
+		margin-top: 57px;
+	}
+	.contact_info,
+	.contact_info_inner,
+	.contact h3 {
+		transform: none;
+		text-align: center;
+		position: static;
+	}
+	.footer_logo img {
+		max-width: 100%;
+	}
+	.contact img {
+		display: block;
+		margin: 20px auto 0;
+	}
+	h1 br {
+		display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.made_by {
+		text-align: center;
+	}
+	footer {
+		text-align: center;
+	}
+	html {
+		font-size: 7.5px;
+	}
+	section {
+		padding: 40px 0;
+		text-align: center;
+	}
+	footer .row {
+		display: block;
+	}
+	.menu {
+		display: none;
+	}
+	main {
+		text-align: center;
+	}
+	.main_head {
+		padding-top: 40px;
+	}
+	.trigger li:before {
+		display: none;
+	}
+	.service .row {
+		display: block;
+	}
+	.system_banner {
+		height: auto;
+		padding: 5rem 0;
+	}
+	.system_banner_text {
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: none;
+	}
+	.system .row {
+		display: block;
+	}
+	.row_bottom h4 {
+		margin-top: 4rem;
+	}
+	.open_form .timer__item {
+		margin-top: 2.5rem;
+	}
+	.open_form {
+		margin-bottom: 40px;
+		padding-bottom: 130px;
+	}
+	.cert, .rev {
+		display: none;
+	}
+	header .top_head {
+		display: block;
+		padding: 10px 0;
+		height: auto;
+	}
+	.logo img {
+		max-width: 100%;
+	}
+	.trigger li {
+		text-indent: 0;
+	}
+	.trigger li br {
+		display: none;
+	}
+	section h3 br,
+	section h4 br {
+		display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.made_by p, .copyright p {
+		font-size: 14px;
+	}
+	.share .timer__item {
+		margin-right: 1rem;
+		width: 60px;
+		height: 60px;
+	}
+	.share .timer__item:last-of-type {
+		margin-right: 0;
+	}
+	button#videoButton {
+		width: 5rem;
+		height: 5rem;
+	}
+	.desc, .logo, .top_phone {
+		width: 100%;
+		margin: 5px 0;
+		text-align: center;
+	}
+	h1 {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	h2 {
+		font-size: 2.2rem;
+		line-height: 3.2rem;
+	}
+	.trigger li {
+		font-size: 1.8rem;
+	}
+	section h3 {
+		font-size: 2.6rem;
+	}
+	.open_form .timer__item {
+		height: 60px;
+		width: 60px;
+		padding-top: .5rem;
+	}
+}
+@media only screen and (max-width : 380px) {
+	.form_wrapper {
+		padding: 50px 15px 65px 15px;
+	}
+	h1 {
+		font-size: 2.8rem;
+		line-height: 3.8rem;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
